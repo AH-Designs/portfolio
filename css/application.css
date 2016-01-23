@@ -6,12 +6,67 @@ body {
   font-family: "Lucida Grande", "Tahoma", "Verdana", "Arial", sans-serif;
   width: 100%; }
 
+/*main background image*/
+section.main_crayons_image {
+  max-width: 100%;
+  height: 660px;
+  position: relative;
+  top: -20px;
+  display: block;
+  z-index: -2;
+  background-image: url("../images/large-crayons.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 /*descriptive color variables*/
 /*function color variables*/
 /*font stacks variables*/
 /*****************************BUTTON STYLING***********************/
+/*my skills crayon box button*/
+.skills_crayon_box {
+  font-size: 27px;
+  background-color: #ffffff;
+  text-align: center;
+  z-index: 1;
+  margin-top: 36px;
+  width: 280px;
+  font-family: "Changa One", cursive;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 42px;
+  border-radius: 12px; }
+  .skills_crayon_box a {
+    text-decoration: none;
+    color: #ED4A62; }
+
+.skills_crayon_box:hover {
+  background-color: #ED4A62; }
+  .skills_crayon_box:hover a {
+    color: #ffffff; }
+
 /**********************FORM STYLING*********************/
 /*main image*/
+/*main welcome quote*/
+.quote_background {
+  z-index: 1;
+  background-color: #000000;
+  max-width: 950px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  opacity: 0.8;
+  border-radius: 4px; }
+
+.welcome_quote {
+  z-index: 1;
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  padding: 5px;
+  font-family: "Permanent Marker", cursive; }
+
 /*Full page wrapper*/
 /*Full page wrapper*/
 div.wrapper {
@@ -107,6 +162,19 @@ ul li.twitter p {
 
   .twitter_icon {
     padding-right: 15px; } }
+/*Logo*/
+.logo_div {
+  z-index: 1;
+  position: relative;
+  bottom: -60px; }
+
+.logo_image {
+  z-index: 1;
+  opacity: 0.8;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
+
 /*main nav bar styling*/
 .navbar {
   height: 100px;

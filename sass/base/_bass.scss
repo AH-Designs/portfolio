@@ -10,6 +10,20 @@ body{
 	 font-family:$lucida-grande;
 	 width:100%;
 	 
-	
+	 	
+}
+
+/*main background image*/
+
+section.main_crayons_image{
+	max-width:100%;
+	height:660px;
+	position:relative;
+	top:-20px;
+	display: block;
+	z-index: -2;
+	background-image:url("../images/large-crayons.jpg");
+	background-repeat:no-repeat;
+	background-size: cover; 
 }
 

@@ -1,1 +1,19 @@
+/*main welcome quote*/
 
+.quote_background{
+	z-index: 1;
+	background-color: $color-main;
+	max-width:950px;
+	margin-top:30px;
+	@include block-center;
+	opacity: 0.8;
+	@include roundy(4px);
+}
+.welcome_quote{
+	z-index: 1;
+	color:white;
+	font-size: 35px;
+	text-align: center;
+	padding:5px;
+	font-family: $main-header-font;
+}
