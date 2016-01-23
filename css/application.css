@@ -18,6 +18,12 @@ section.main_crayons_image {
   background-repeat: no-repeat;
   background-size: cover; }
 
+/*blue gradient background*/
+#blue_gradient {
+  background-image: linear-gradient(#429C9D, #ffffff);
+  z-index: -10;
+  height: 100%; }
+
 /*descriptive color variables*/
 /*function color variables*/
 /*font stacks variables*/
@@ -46,7 +52,12 @@ section.main_crayons_image {
     color: #ffffff; }
 
 /**********************FORM STYLING*********************/
-/*main image*/
+/*bio image*/
+.bio_image {
+  background-image: url("../images/bio_image.png");
+  z-index: 5;
+  background-repeat: no-repeat; }
+
 /*main welcome quote*/
 .quote_background {
   z-index: 1;
@@ -67,6 +78,45 @@ section.main_crayons_image {
   padding: 5px;
   font-family: "Permanent Marker", cursive; }
 
+/*H2 PAGE HEADINGS*/
+h2 {
+  font-size: 39px;
+  color: #ffffff;
+  z-index: 1;
+  width: 230px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-top: 30px;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: bold; }
+
+/*Make a short line appear under headings*/
+h2:after {
+  content: '';
+  display: block;
+  height: 0.2em;
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-bottom: solid; }
+
+/*BIO TEXT */
+.bio_text_block {
+  padding-top: 18px;
+  width: 410px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-left: 55px; }
+
+h3 {
+  color: #EF8C30;
+  font-weight: bold;
+  font-size: 18px; }
+
 /*Full page wrapper*/
 /*Full page wrapper*/
 div.wrapper {
@@ -81,12 +131,42 @@ div.wrapper {
 div.wrapper {
   content: "";
   display: block;
-  height: 100px; }
+  height: 100%; }
 
 /*main nav-bar container*/
 .nav_container {
   height: 100%;
   width: 100%; }
+
+/*FLEXBOX ABOUT_ME*/
+.about_me_flex_container {
+  display: flex;
+  width: 950px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 34px;
+  height: 500px; }
+
+.flex_item {
+  height: 480px;
+  width: 470px;
+  padding-left: -100px;
+  padding-right: -100px;
+  flex-self: center; }
+
+.bio_flex_item2 {
+  background-image: url("../images/pinned.png");
+  background-repeat: no-repeat; }
+
+/*flex container button bio...contact me button*/
+.button_flex_contianer {
+  display: flex; }
+
+.contact_button {
+  margin: auto; }
 
 /*Footer styling*/
 /*Footer styling*/
@@ -233,6 +313,12 @@ ul li.twitter p {
   z-index: 4; }
 
 /*:HOVER*/
+.about_me {
+  height: 100%;
+  position: relative;
+  bottom: 40px;
+  display: block; }
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.

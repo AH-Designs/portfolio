@@ -17,3 +17,47 @@
 	padding:5px;
 	font-family: $main-header-font;
 }
+
+
+/*H2 PAGE HEADINGS*/
+
+h2{
+	font-size:39px;
+	color:$color-highlight;
+	z-index: 1;
+	width:230px;
+	text-align: center;
+	@include block-center;
+	padding-top:30px;
+	font-family: $nav-font;
+	font-weight: bold;
+}
+
+/*Make a short line appear under headings*/
+
+h2:after {
+  content:'';
+  display:block;
+  height:0.2em;
+  width:35%;
+  @include block-center;
+  border-bottom:solid ;
+}
+
+/*BIO TEXT */
+
+.bio_text_block{
+
+	padding-top: 18px;
+	width:410px;
+	@include block-center;
+	padding-left:55px;
+	
+}
+
+h3{
+	color:$color-headers;
+	font-weight:bold;
+	font-size: 18px;
+
+}
