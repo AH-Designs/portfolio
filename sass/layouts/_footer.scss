@@ -1,1 +1,79 @@
 /*Footer styling*/
+
+/*Footer styling*/
+
+#footer{
+	background-color: black;
+	height:150px;
+		z-index: 10;
+	position: relative;
+	top:0px;
+	margin-left:0;
+	margin-right:0;
+
+}
+
+.contact_footer{
+
+	position: relative;
+	bottom:0px;
+	background-color: black;
+	height:150px;
+	z-index: 10;
+	margin-left:0;
+	margin-right:0;
+	margin-top:-20px;
+
+
+}
+
+
+
+
+#social_networks{
+	position: relative;
+	top:15px;
+	ul{
+	text-align: right;
+	margin-right: 70px;
+	list-style: none;
+	}
+	a{
+	text-decoration: none;
+	color:$color-highlight;
+	font-weight: bold;
+	font-size: 15px;
+	margin-left:20px;
+	}
+}
+
+
+
+#envelope_icon{
+	font-size: 17px;
+}
+
+
+
+ul li.twitter p{
+	margin-right: -4px;
+}
+
+
+
+
+#say_hello{
+	position: relative;
+	top:45px;
+	left:69px;
+	 p{
+	font-weight: bold;
+	color: $color-highlight;
+	font-size:15px;
+	}
+}
+
+.contact_link{
+	color:$color-links;
+	font-size: 15px;
+}
