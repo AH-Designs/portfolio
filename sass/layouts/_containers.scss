@@ -4,8 +4,29 @@
 
 
 
+/*Full page wrapper*/
+
+div.wrapper{
+	min-width: 100%;
+	@include block-center;
+	height:100vh -100px;
+	z-index: -50;
+
+	
+	
+}
+
+
 
 /*container*/
 
 
+
+/*main nav-bar container*/
+
+.nav_container{
+	height:100%;
+	width:100%;
+	
+}
 
