@@ -37,12 +37,15 @@ div.wrapper {
 /*Footer styling*/
 #footer {
   background-color: black;
-  height: 150px;
+  height: 100px;
   z-index: 10;
   position: relative;
   top: 0px;
   margin-left: 0;
   margin-right: 0; }
+  @media screen and (max-width: 1045px) {
+    #footer {
+      height: 150px; } }
 
 .contact_footer {
   position: relative;
@@ -67,6 +70,11 @@ div.wrapper {
     font-weight: bold;
     font-size: 15px;
     margin-left: 20px; }
+  @media screen and (max-width: 1177px) {
+    #social_networks a {
+      margin-left: 10px; }
+    #social_networks ul {
+      margin-right: 10px; } }
 
 #envelope_icon {
   font-size: 17px; }
@@ -78,6 +86,9 @@ ul li.twitter p {
   position: relative;
   top: 45px;
   left: 69px; }
+  @media screen and (max-width: 1045px) {
+    #say_hello {
+      left: 10px; } }
   #say_hello p {
     font-weight: bold;
     color: #ffffff;
@@ -87,6 +98,15 @@ ul li.twitter p {
   color: #ED4A62;
   font-size: 15px; }
 
+@media screen and (max-width: 622px) {
+  a.twitter_text, a.github_text {
+    display: none; }
+
+  .github_icon {
+    padding-right: 15px; }
+
+  .twitter_icon {
+    padding-right: 15px; } }
 /*main nav bar styling*/
 .navbar {
   height: 100px;
@@ -115,6 +135,11 @@ ul li.twitter p {
       margin-left: 21px;
       margin-right: 21px;
       font-size: 15px; } }
+  @media screen and (max-width: 906px) {
+    .navbar-nav li a {
+      margin-left: 11px;
+      margin-right: 11px;
+      font-size: 14px; } }
 
 /*drop_down styling*/
 #bs-example-navbar-collapse-1 {
