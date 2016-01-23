@@ -18,9 +18,36 @@
 	font-size: 20px;
 	padding-bottom:5px;
 	font-family: $nav-font;
+		
+
+		@media screen and (max-width: 1227px) {
+
+		font-size: 18px;
+		margin-left:29px;
+		margin-right: 29px;
 	
+		}
+
+	    @media screen and (max-width: 1093px) {
+
+		margin-left:25px;
+		margin-right:25px;
+		font-size: 19px;
+		
+		}
+
+		@media screen and (max-width: 1059px) {
+
+		margin-left:21px;
+		margin-right:21px;
+		font-size: 15px;
+			
+		}
+
 }
 
+
+	
 /*drop_down styling*/
 
 #bs-example-navbar-collapse-1{
@@ -51,3 +78,12 @@
 	background-color: $color-highlight;
 	z-index: 4;
 } 
+
+
+
+
+
+
+
+
+

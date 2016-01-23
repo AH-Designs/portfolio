@@ -34,6 +34,21 @@ div.wrapper {
   font-size: 20px;
   padding-bottom: 5px;
   font-family: "Open Sans Condensed", sans-serif; }
+  @media screen and (max-width: 1227px) {
+    .navbar-nav li a {
+      font-size: 18px;
+      margin-left: 29px;
+      margin-right: 29px; } }
+  @media screen and (max-width: 1093px) {
+    .navbar-nav li a {
+      margin-left: 25px;
+      margin-right: 25px;
+      font-size: 19px; } }
+  @media screen and (max-width: 1059px) {
+    .navbar-nav li a {
+      margin-left: 21px;
+      margin-right: 21px;
+      font-size: 15px; } }
 
 /*drop_down styling*/
 #bs-example-navbar-collapse-1 {
