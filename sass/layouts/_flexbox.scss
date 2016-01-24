@@ -69,3 +69,35 @@
 				margin:0;
 				}
 		}
+
+/*portfolio felxbox styling*/
+
+.portfolio_flex_container{
+	display: flex;
+	justify-content:center;
+	flex-wrap:wrap;
+	flex-direction:row;
+	margin-top: 65px;
+
+}
+
+.portfolio_flex_item{
+	display: flex;
+	flex-direction:column;
+	margin:15px;
+	padding:20px;
+	
+	text-align: center;
+	width:370px;
+
+}
+
+/*flex styling for portfolio explore buttons*/
+
+.explore_button{
+	margin-top: auto;
+	align-self:center;
+	
+}
+
+

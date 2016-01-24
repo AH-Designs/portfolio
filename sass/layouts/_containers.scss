@@ -1,27 +1,17 @@
 
-/*Full page wrapper*/
-
-
 
 
 /*Full page wrapper*/
 
 div.wrapper{
-	min-height:100%;
-
-
 	min-width: 100%;
 	@include block-center;
-	margin-bottom:-100px;
+	
 	z-index: -50;
 	
 }
 
-div.wrapper{
-	content:"";
-	display:block;
-	height:100%;
-}
+
 
 
 
@@ -32,4 +22,11 @@ div.wrapper{
 	width:100%;
 	
 }
+
+
+
+
+
+
+
 

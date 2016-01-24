@@ -66,6 +66,13 @@
     position: relative;
     top: 20px;
     background-color: $color-highlight;
+    		@media screen and (max-width: 767px) {
+			width:100%;
+			border-left:solid 2px $color-headers;
+			border-bottom:solid 2px $color-headers;
+			border-right:solid 2px $color-headers;
+			@include roundy(2px);
+    		}
 
 }
 

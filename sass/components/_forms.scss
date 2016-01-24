@@ -35,5 +35,22 @@
 	}
 
 
+/*styling explore buttons*/
+
+.explore_button{
+
+	height:30px;
+	width:130px;
+	
+	background-color: $color-highlight;
+	border:solid 3px $color-links;
+	color:$color-links;
+	@include roundy(3px);
+	font-weight: bold;
+	width:160px;
+	
+
+}
+
 /**********************FORM STYLING*********************/
 
