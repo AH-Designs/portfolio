@@ -7,6 +7,7 @@ body {
   width: 100%; }
 
 /*main background image*/
+/*made responsive*/
 section.main_crayons_image {
   max-width: 100%;
   height: 660px;
@@ -17,6 +18,22 @@ section.main_crayons_image {
   background-image: url("../images/large-crayons.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
+  @media screen and (max-width: 995px) {
+    section.main_crayons_image {
+      height: 680px;
+      top: -20px;
+      background-image: url("../images/large-crayons3.jpg"); } }
+  @media screen and (max-width: 960px) {
+    section.main_crayons_image {
+      height: 680px;
+      top: -20px;
+      background-image: url("../images/large-crayons2.jpg"); } }
+  @media screen and (max-width: 600px) {
+    section.main_crayons_image {
+      max-width: 100%;
+      height: 680px;
+      top: -20px;
+      background-image: url("../images/large-crayons4.jpg"); } }
 
 /*blue gradient background*/
 #blue_gradient {
@@ -78,7 +95,23 @@ section.main_crayons_image {
   margin-right: auto;
   display: block;
   opacity: 0.8;
-  border-radius: 4px; }
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px; }
+  @media screen and (max-width: 1017px) {
+    .quote_background {
+      max-width: 750px; } }
+  @media screen and (max-width: 805px) {
+    .quote_background {
+      max-width: 550px; } }
+  @media screen and (max-width: 600px) {
+    .quote_background {
+      max-width: 450px; } }
+  @media screen and (max-width: 492px) {
+    .quote_background {
+      max-width: 350px; } }
 
 .welcome_quote {
   z-index: 1;
@@ -86,7 +119,8 @@ section.main_crayons_image {
   font-size: 35px;
   text-align: center;
   padding: 5px;
-  font-family: "Permanent Marker", cursive; }
+  font-family: "Permanent Marker", cursive;
+  margin: 0 auto; }
 
 /*H2 PAGE HEADINGS*/
 h2 {
@@ -415,6 +449,7 @@ a:hover.mail_to_link {
 a:hover.image_link {
   text-decoration: none; }
 
+/*about me section*/
 .about_me {
   height: 100%;
   position: relative;

@@ -8,7 +8,25 @@
 	@include block-center;
 	opacity: 0.8;
 	@include roundy(4px);
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:20px;
+	padding-right:20px;
+		@media screen and (max-width: 1017px) {
+		max-width:750px;	
+		}
+		@media screen and (max-width: 805px) {
+		max-width:550px;	
+		}
+		@media screen and (max-width: 600px) {
+		max-width:450px;	
+		}
+		@media screen and (max-width: 492px) {
+		max-width:350px;	
+		}
+
 }
+
 .welcome_quote{
 	z-index: 1;
 	color:white;
@@ -16,6 +34,7 @@
 	text-align: center;
 	padding:5px;
 	font-family: $main-header-font;
+	margin:0 auto;
 }
 
 

@@ -13,7 +13,7 @@ body{
 	 	
 }
 
-/*main background image*/
+/*main background image*/ /*made responsive*/
 
 section.main_crayons_image{
 	max-width:100%;
@@ -25,7 +25,30 @@ section.main_crayons_image{
 	background-image:url("../images/large-crayons.jpg");
 	background-repeat:no-repeat;
 	background-size: cover; 
+		
+			@media screen and (max-width: 995px){
+			height:680px;
+			top:-20px;
+			background-image:url("../images/large-crayons3.jpg");
+			}
+			@media screen and (max-width: 960px) {			
+			height:680px;
+			top:-20px;
+			background-image:url("../images/large-crayons2.jpg");
+			}
+			@media screen and (max-width: 600px) {
+			max-width:100%;
+			height:680px;	
+			top:-20px;
+			background-image:url("../images/large-crayons4.jpg");
+			}
+
+
 }
+
+
+
+
 
 /*blue gradient background*/
 
