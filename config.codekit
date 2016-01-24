@@ -1765,15 +1765,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/sass\/layouts\/_phedo.scss": {
+	"\/sass\/layouts\/_pseudo.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sass\/layouts\/_phedo.scss",
-		"outputAbbreviatedPath": "\/sass\/css\/_phedo.css",
+		"inputAbbreviatedPath": "\/sass\/layouts\/_pseudo.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_pseudo.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

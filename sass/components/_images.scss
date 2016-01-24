@@ -4,6 +4,10 @@
 	background-image: url("../images/bio_image.png");
 	z-index: 5;
 	background-repeat: no-repeat;
-	
+
+	@media screen and (max-width: 745px) {
+	background-image: url("../images/bio_image2.png");	
+	}	
+
 }
 

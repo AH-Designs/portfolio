@@ -19,17 +19,20 @@
 	}
 }
 
+/*contact me button in bio*/
 
-
-.skills_crayon_box:hover {
-	
-	background-color:$color-links;
-	a{
-	color:$color-highlight;	
+#contact_button{
+	height:30px;
+	width:150px;
+	border:solid 4px $color-links;
+	background-color: #ffffff;
+	display: block;
+	@include roundy(8px);
+	margin:0 auto;
+	color:$color-links;
+	text-align: center;
+		
 	}
-}
-
-
 
 
 /**********************FORM STYLING*********************/

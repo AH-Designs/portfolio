@@ -52,12 +52,43 @@ h2:after {
 	width:410px;
 	@include block-center;
 	padding-left:55px;
-	
+		@media screen and (max-width: 1009px) {
+		padding:20px;
+		}
+		@media screen and (max-width: 745px) {
+		width:300px;
+		}
 }
 
 h3{
 	color:$color-headers;
 	font-weight:bold;
 	font-size: 18px;
+
+}
+
+.intro_bio {
+	font-weight: bold;
+	margin-bottom:3.5px ;
+	font-size: 18px;
+	text-align: center;
+	@media screen and (max-width: 745px) {
+	font-weight: bold;
+	margin-bottom:3.5px ;
+	font-size: 15px;
+	text-align: center;
+	}
+}
+
+.main_text_bio{
+	font-size: 15px;
+	text-align: center;
+	font-family: arial,sans-serif;
+	@media screen and (max-width: 745px) {
+	font-size: 13px;
+	text-align: center;
+	min-width:200px;
+	}
+
 
 }

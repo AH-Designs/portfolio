@@ -46,10 +46,17 @@ section.main_crayons_image {
     text-decoration: none;
     color: #ED4A62; }
 
-.skills_crayon_box:hover {
-  background-color: #ED4A62; }
-  .skills_crayon_box:hover a {
-    color: #ffffff; }
+/*contact me button in bio*/
+#contact_button {
+  height: 30px;
+  width: 150px;
+  border: solid 4px #ED4A62;
+  background-color: #ffffff;
+  display: block;
+  border-radius: 8px;
+  margin: 0 auto;
+  color: #ED4A62;
+  text-align: center; }
 
 /**********************FORM STYLING*********************/
 /*bio image*/
@@ -57,6 +64,9 @@ section.main_crayons_image {
   background-image: url("../images/bio_image.png");
   z-index: 5;
   background-repeat: no-repeat; }
+  @media screen and (max-width: 745px) {
+    .bio_image {
+      background-image: url("../images/bio_image2.png"); } }
 
 /*main welcome quote*/
 .quote_background {
@@ -111,11 +121,39 @@ h2:after {
   margin-right: auto;
   display: block;
   padding-left: 55px; }
+  @media screen and (max-width: 1009px) {
+    .bio_text_block {
+      padding: 20px; } }
+  @media screen and (max-width: 745px) {
+    .bio_text_block {
+      width: 300px; } }
 
 h3 {
   color: #EF8C30;
   font-weight: bold;
   font-size: 18px; }
+
+.intro_bio {
+  font-weight: bold;
+  margin-bottom: 3.5px;
+  font-size: 18px;
+  text-align: center; }
+  @media screen and (max-width: 745px) {
+    .intro_bio {
+      font-weight: bold;
+      margin-bottom: 3.5px;
+      font-size: 15px;
+      text-align: center; } }
+
+.main_text_bio {
+  font-size: 15px;
+  text-align: center;
+  font-family: arial,sans-serif; }
+  @media screen and (max-width: 745px) {
+    .main_text_bio {
+      font-size: 13px;
+      text-align: center;
+      min-width: 200px; } }
 
 /*Full page wrapper*/
 /*Full page wrapper*/
@@ -141,7 +179,7 @@ div.wrapper {
 /*FLEXBOX ABOUT_ME*/
 .about_me_flex_container {
   display: flex;
-  width: 950px;
+  width: 100%;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
@@ -160,6 +198,17 @@ div.wrapper {
 .bio_flex_item2 {
   background-image: url("../images/pinned.png");
   background-repeat: no-repeat; }
+  @media screen and (max-width: 1009px) {
+    .bio_flex_item2 {
+      height: 460px;
+      width: 550px;
+      order: -1; } }
+  @media screen and (max-width: 745px) {
+    .bio_flex_item2 {
+      background-image: url("../images/pinned2.png");
+      width: 400px;
+      margin-left: auto;
+      margin-right: auto; } }
 
 /*flex container button bio...contact me button*/
 .button_flex_contianer {
@@ -168,6 +217,13 @@ div.wrapper {
 .contact_button {
   margin: auto; }
 
+@media screen and (max-width: 1009px) {
+  .bio_flex_item1 {
+    margin-top: 50px;
+    margin-left: 50px; } }
+@media screen and (max-width: 450px) {
+  .bio_flex_item1 {
+    margin: 0; } }
 /*Footer styling*/
 /*Footer styling*/
 #footer {
@@ -313,6 +369,52 @@ ul li.twitter p {
   z-index: 4; }
 
 /*:HOVER*/
+/*hover button to my skills from home page*/
+.skills_crayon_box:hover {
+  background-color: #ED4A62; }
+  .skills_crayon_box:hover a {
+    color: #ffffff; }
+
+#contact_button a {
+  color: #ED4A62; }
+
+/*hover button on bio 'about me'*/
+#contact_button:hover {
+  border: solid 4px #ffffff;
+  background-color: #ED4A62;
+  color: #ffffff;
+  border-radius: 8px;
+  text-decoration: none; }
+
+#contact_button a:hover {
+  text-decoration: none;
+  color: #ffffff; }
+
+/*main nav hover styling*/
+nav ul li a:hover {
+  text-decoration: none;
+  border-bottom: solid 3px #ED4A62; }
+
+/*Footer hover styling*/
+.contact_link:hover {
+  text-decoration: none;
+  border-bottom: solid 1px #ffffff; }
+
+#social_networks a:hover.github_text {
+  border-bottom: solid 1px #ED4A62; }
+
+#social_networks a:hover.twitter_text {
+  border-bottom: solid 1px #ED4A62; }
+
+a.mail_to_link {
+  color: #ED4A62; }
+
+a:hover.mail_to_link {
+  text-decoration: none; }
+
+a:hover.image_link {
+  text-decoration: none; }
+
 .about_me {
   height: 100%;
   position: relative;
