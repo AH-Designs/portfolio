@@ -54,3 +54,106 @@
 
 /**********************FORM STYLING*********************/
 
+
+
+/*styling my form*/
+
+label{
+	font-size:17px;
+			@media screen and (max-width: 745px) {
+			font-size:13px;
+			}
+}
+
+.form{
+	position: relative;
+	top:100px;
+	left:25px;
+			@media screen and (max-width: 745px) {
+			top:77px;
+			left:76px;
+			width:360px;
+			margin-right:0;
+			}
+
+}
+
+.input_name, .input_email{
+	height: 30px;
+	width:260px;
+	border:solid 2px $brighten-yellow;
+	background-color: $color-highlight;
+	margin: 10px;
+			@media screen and (max-width: 745px) {
+			width:170px;
+			}
+					
+	} 
+
+.input_message{
+	height: 175px;
+	width:260px;
+	border:solid 2px $brighten-yellow;
+	background-color: $color-highlight;
+	position: relative;
+	right:25;
+	position: relative;
+	right:15px;
+	margin:5px;
+			@media screen and (max-width: 745px) {
+			height: 155px;
+			width:170px;
+			right:12px;
+			}
+
+}
+
+.send_button{
+	height:40px;
+	width:140px;
+	margin-top:10px;
+	background-color: $color-highlight;
+	border:solid 4px $color-links;
+	color:$color-links;
+	@include roundy(9px);
+	font-weight: bold;
+} 
+
+
+
+
+.send_button:hover{
+	color: $color-highlight;
+	border:solid 4px $color-highlight;
+	background-color: $color-links;
+	@include roundy(9px);
+}
+
+
+
+.message_box{
+	position: relative;
+	bottom:152px;
+	right:26px;
+			@media screen and (max-width: 745px) {
+			right:18px;
+			}
+	
+}
+
+@media screen and (max-width: 745px) {
+
+			.form_div{
+				width:500px;
+				margin:0 auto;
+			}
+
+}
+
+
+
+
+
+
+
+

@@ -83,6 +83,78 @@ section.main_crayons_image {
   width: 160px; }
 
 /**********************FORM STYLING*********************/
+/*styling my form*/
+label {
+  font-size: 17px; }
+  @media screen and (max-width: 745px) {
+    label {
+      font-size: 13px; } }
+
+.form {
+  position: relative;
+  top: 100px;
+  left: 25px; }
+  @media screen and (max-width: 745px) {
+    .form {
+      top: 77px;
+      left: 76px;
+      width: 360px;
+      margin-right: 0; } }
+
+.input_name, .input_email {
+  height: 30px;
+  width: 260px;
+  border: solid 2px #CDD801;
+  background-color: #ffffff;
+  margin: 10px; }
+  @media screen and (max-width: 745px) {
+    .input_name, .input_email {
+      width: 170px; } }
+
+.input_message {
+  height: 175px;
+  width: 260px;
+  border: solid 2px #CDD801;
+  background-color: #ffffff;
+  position: relative;
+  right: 25;
+  position: relative;
+  right: 15px;
+  margin: 5px; }
+  @media screen and (max-width: 745px) {
+    .input_message {
+      height: 155px;
+      width: 170px;
+      right: 12px; } }
+
+.send_button {
+  height: 40px;
+  width: 140px;
+  margin-top: 10px;
+  background-color: #ffffff;
+  border: solid 4px #ED4A62;
+  color: #ED4A62;
+  border-radius: 9px;
+  font-weight: bold; }
+
+.send_button:hover {
+  color: #ffffff;
+  border: solid 4px #ffffff;
+  background-color: #ED4A62;
+  border-radius: 9px; }
+
+.message_box {
+  position: relative;
+  bottom: 152px;
+  right: 26px; }
+  @media screen and (max-width: 745px) {
+    .message_box {
+      right: 18px; } }
+
+@media screen and (max-width: 745px) {
+  .form_div {
+    width: 500px;
+    margin: 0 auto; } }
 /*bio image*/
 .bio_image {
   background-image: url("../images/bio_image.png");
@@ -104,6 +176,28 @@ div.arrow_div {
 .arrow_div img {
   z-index: 5;
   margin: 0 auto; }
+
+/*contact form paper image*/
+div.note_paper_image {
+  background-image: url("../images/paper1.png");
+  background-repeat: no-repeat;
+  z-index: 5;
+  height: 500px;
+  width: 700px;
+  position: relative;
+  bottom: -30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center; }
+  @media screen and (max-width: 745px) {
+    div.note_paper_image {
+      background-image: url("../images/paper2.png");
+      width: 410px;
+      bottom: -50px;
+      display: block;
+      margin: 0 auto;
+      right: 50px; } }
 
 /*main welcome quote*/
 .quote_background {
@@ -152,7 +246,7 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  padding-top: 30px;
+  padding-top: 43px;
   font-family: "Open Sans Condensed", sans-serif;
   font-weight: bold; }
 
@@ -252,6 +346,11 @@ p.quote2 {
   display: block;
   text-shadow: 0px 5px 2px rgba(0, 0, 0, 0.88);
   font-family: "Changa One", cursive; }
+
+/*contact page header*/
+.say_hello {
+  position: relative;
+  top: 25px; }
 
 /*Full page wrapper*/
 div.wrapper {
@@ -522,6 +621,13 @@ a:hover.mail_to_link {
 
 a:hover.image_link {
   text-decoration: none; }
+
+/*contact form*/
+.send_button:hover {
+  color: #ffffff;
+  border: solid 4px #ffffff;
+  background-color: #ED4A62;
+  border-radius: 9px; }
 
 /*about me section*/
 .about_me {
