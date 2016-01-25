@@ -35,7 +35,7 @@
 	text-decoration: none;
 	color:$color-highlight;
 	font-weight: bold;
-	font-size: 15px;
+	font-size: 0.938em;
 	margin-left:20px;
 	}
 		@media screen and (max-width: 1177px){
@@ -50,7 +50,7 @@
 }
 
 #envelope_icon{
-	font-size: 17px;
+	font-size: 1.063em;
 }
 
 
@@ -72,13 +72,13 @@ ul li.twitter p{
 	 p{
 	font-weight: bold;
 	color: $color-highlight;
-	font-size:15px;
+	font-size:0.938em;
 	}
 }
 
 .contact_link{
 	color:$color-links;
-	font-size: 15px;
+	font-size: 0.938em;
 }
 
 			@media screen and (max-width: 622px) {

@@ -1,15 +1,17 @@
+
 /*****************************BUTTON STYLING***********************/
 
 /*my skills crayon box button*/
 .skills_crayon_box {
-	font-size:27px;
+	font-size:1.563em;
 	background-color:$color-highlight; 	 
 	text-align: center;
 	z-index: 1;
 	margin-top: 36px;
 	width:280px;
-	font-family: $quote-font;
-	
+	font-family: $buttons;
+	font-weight:bold;
+	box-shadow:2px 2px 2px 12px 13px #DE9BCA;
 	@include block-center;
 	height: 42px;
 	@include roundy(12px);
@@ -22,7 +24,7 @@
 /*contact me button in bio*/
 
 #contact_button{
-	height:30px;
+	height:32.5px;
 	width:150px;
 	border:solid 4px $color-links;
 	background-color: #ffffff;
@@ -31,6 +33,7 @@
 	margin:0 auto;
 	color:$color-links;
 	text-align: center;
+	font-family:$buttons;
 		
 	}
 
@@ -39,19 +42,19 @@
 
 .explore_button{
 
-	height:30px;
+	height:40px;
 	width:130px;
-	
+	font-size:1.125em;
 	background-color: $color-highlight;
 	border:solid 3px $color-links;
 	color:$color-links;
-	@include roundy(3px);
+	@include roundy(13px);
 	font-weight: bold;
 	width:160px;
+	font-family:$buttons;
 	
 
 }
-
 /**********************FORM STYLING*********************/
 
 
@@ -59,9 +62,9 @@
 /*styling my form*/
 
 label{
-	font-size:17px;
+	font-size:1.063em;
 			@media screen and (max-width: 745px) {
-			font-size:13px;
+			font-size:0.813em;
 			}
 }
 
@@ -100,6 +103,7 @@ label{
 	position: relative;
 	right:15px;
 	margin:5px;
+
 			@media screen and (max-width: 745px) {
 			height: 155px;
 			width:170px;
@@ -108,7 +112,7 @@ label{
 
 }
 
-.send_button{
+button.send_button{
 	height:40px;
 	width:140px;
 	margin-top:10px;
@@ -117,12 +121,14 @@ label{
 	color:$color-links;
 	@include roundy(9px);
 	font-weight: bold;
+	font-family:$buttons;
+	font-size:1.313em;
 } 
 
 
 
 
-.send_button:hover{
+button.send_button:hover{
 	color: $color-highlight;
 	border:solid 4px $color-highlight;
 	background-color: $color-links;
@@ -137,6 +143,7 @@ label{
 	right:26px;
 			@media screen and (max-width: 745px) {
 			right:18px;
+
 			}
 	
 }

@@ -1,6 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900italic,900);
+@import url(https://fonts.googleapis.com/css?family=Patrick+Hand+SC);
 body {
   font-family: "Lucida Grande", "Tahoma", "Verdana", "Arial", sans-serif;
-  width: 100%; }
+  width: 100%;
+  font-size: 16px; }
 
 /*main background image*/
 /*made responsive*/
@@ -10,7 +13,6 @@ section.main_crayons_image {
   position: relative;
   top: -20px;
   display: block;
-  z-index: -2;
   background-image: url("../images/large-crayons.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
@@ -34,22 +36,25 @@ section.main_crayons_image {
 /*blue gradient background*/
 #blue_gradient {
   background-image: linear-gradient(#429C9D, #ffffff);
-  z-index: -10;
   height: 100%; }
 
+/*Links*/
+/*portfolio quotes font*/
 /*descriptive color variables*/
 /*function color variables*/
 /*font stacks variables*/
 /*****************************BUTTON STYLING***********************/
 /*my skills crayon box button*/
 .skills_crayon_box {
-  font-size: 27px;
+  font-size: 1.563em;
   background-color: #ffffff;
   text-align: center;
   z-index: 1;
   margin-top: 36px;
   width: 280px;
-  font-family: "Changa One", cursive;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  box-shadow: 2px 2px 2px 12px 13px #DE9BCA;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -61,7 +66,7 @@ section.main_crayons_image {
 
 /*contact me button in bio*/
 #contact_button {
-  height: 30px;
+  height: 32.5px;
   width: 150px;
   border: solid 4px #ED4A62;
   background-color: #ffffff;
@@ -69,26 +74,29 @@ section.main_crayons_image {
   border-radius: 8px;
   margin: 0 auto;
   color: #ED4A62;
-  text-align: center; }
+  text-align: center;
+  font-family: "Roboto", sans-serif; }
 
 /*styling explore buttons*/
 .explore_button {
-  height: 30px;
+  height: 40px;
   width: 130px;
+  font-size: 1.125em;
   background-color: #ffffff;
   border: solid 3px #ED4A62;
   color: #ED4A62;
-  border-radius: 3px;
+  border-radius: 13px;
   font-weight: bold;
-  width: 160px; }
+  width: 160px;
+  font-family: "Roboto", sans-serif; }
 
 /**********************FORM STYLING*********************/
 /*styling my form*/
 label {
-  font-size: 17px; }
+  font-size: 1.063em; }
   @media screen and (max-width: 745px) {
     label {
-      font-size: 13px; } }
+      font-size: 0.813em; } }
 
 .form {
   position: relative;
@@ -127,7 +135,7 @@ label {
       width: 170px;
       right: 12px; } }
 
-.send_button {
+button.send_button {
   height: 40px;
   width: 140px;
   margin-top: 10px;
@@ -135,9 +143,11 @@ label {
   border: solid 4px #ED4A62;
   color: #ED4A62;
   border-radius: 9px;
-  font-weight: bold; }
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.313em; }
 
-.send_button:hover {
+button.send_button:hover {
   color: #ffffff;
   border: solid 4px #ffffff;
   background-color: #ED4A62;
@@ -230,7 +240,7 @@ div.note_paper_image {
 .welcome_quote {
   z-index: 1;
   color: white;
-  font-size: 35px;
+  font-size: 2.188em;
   text-align: center;
   padding: 5px;
   font-family: "Permanent Marker", cursive;
@@ -238,7 +248,7 @@ div.note_paper_image {
 
 /*H2 PAGE HEADINGS*/
 h2 {
-  font-size: 39px;
+  font-size: 2.438em;
   color: #ffffff;
   z-index: 1;
   width: 230px;
@@ -248,7 +258,17 @@ h2 {
   display: block;
   padding-top: 43px;
   font-family: "Open Sans Condensed", sans-serif;
-  font-weight: bold; }
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none; }
+
+.about-me-header {
+  text-decoration: none;
+  color: #ffffff; }
+
+.about-me-header:hover {
+  text-decoration: none;
+  color: #ffffff; }
 
 /*Make a short line appear under headings*/
 h2:after {
@@ -279,27 +299,27 @@ h2:after {
 h3 {
   color: #EF8C30;
   font-weight: bold;
-  font-size: 18px; }
+  font-size: 1.125em; }
 
 .intro_bio {
   font-weight: bold;
   margin-bottom: 3.5px;
-  font-size: 18px;
+  font-size: 1.125em;
   text-align: center; }
   @media screen and (max-width: 745px) {
     .intro_bio {
       font-weight: bold;
       margin-bottom: 3.5px;
-      font-size: 15px;
+      font-size: 0.938em;
       text-align: center; } }
 
 .main_text_bio {
-  font-size: 15px;
+  font-size: 0.938em;
   text-align: center;
   font-family: arial,sans-serif; }
   @media screen and (max-width: 745px) {
     .main_text_bio {
-      font-size: 13px;
+      font-size: 0.813em;
       text-align: center;
       min-width: 200px; } }
 
@@ -328,24 +348,47 @@ p.quote1 {
   color: #ffffff;
   width: 90%;
   z-index: 5;
-  font-size: 45px;
+  font-size: 4.063em;
   margin-left: auto;
   margin-right: auto;
   display: block;
   text-shadow: 0px 5px 2px rgba(0, 0, 0, 0.88);
-  font-family: "Changa One", cursive; }
+  font-family: "Patrick Hand SC", cursive;
+  font-weight: bold; }
+  @media screen and (max-width: 1142px) {
+    p.quote1 {
+      font-size: 3.125em; } }
+  @media screen and (max-width: 525px) {
+    p.quote1 {
+      font-size: 2.813em; } }
+  @media screen and (max-width: 1142px) {
+    p.quote1 {
+      top: 50px;
+      font-size: 2.500em; } }
 
 p.quote2 {
   color: #ffffff;
   width: 90%;
   z-index: 5;
-  font-size: 45px;
+  font-size: 3.750em;
   font-weight: bold;
   margin-left: auto;
   margin-right: auto;
   display: block;
   text-shadow: 0px 5px 2px rgba(0, 0, 0, 0.88);
-  font-family: "Changa One", cursive; }
+  font-family: "Patrick Hand SC", cursive; }
+  @media screen and (max-width: 1142px) {
+    p.quote2 {
+      font-size: 3.125em;
+      position: relative;
+      bottom: 50px; } }
+  @media screen and (max-width: 525px) {
+    p.quote2 {
+      font-size: 2.813em; } }
+  @media screen and (max-width: 1142px) {
+    p.quote2 {
+      top: 50px;
+      font-size: 2.500em; } }
 
 /*contact page header*/
 .say_hello {
@@ -424,8 +467,8 @@ div.wrapper {
 .portfolio_flex_item {
   display: flex;
   flex-direction: column;
-  margin: 15px;
-  padding: 20px;
+  margin: 20px;
+  padding: 25px;
   text-align: center;
   width: 370px; }
 
@@ -459,7 +502,7 @@ div.wrapper {
     text-decoration: none;
     color: #ffffff;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 0.938em;
     margin-left: 20px; }
   @media screen and (max-width: 1177px) {
     #social_networks a {
@@ -468,7 +511,7 @@ div.wrapper {
       margin-right: 10px; } }
 
 #envelope_icon {
-  font-size: 17px; }
+  font-size: 1.063em; }
 
 ul li.twitter p {
   margin-right: -4px; }
@@ -483,11 +526,11 @@ ul li.twitter p {
   #say_hello p {
     font-weight: bold;
     color: #ffffff;
-    font-size: 15px; }
+    font-size: 0.938em; }
 
 .contact_link {
   color: #ED4A62;
-  font-size: 15px; }
+  font-size: 0.938em; }
 
 @media screen and (max-width: 622px) {
   a.twitter_text, a.github_text {
@@ -521,29 +564,49 @@ ul li.twitter p {
 .navbar-nav li a {
   margin-left: 37px;
   margin-right: 35px;
-  font-size: 20px;
+  font-size: 1.250em;
   padding-bottom: 5px;
   font-family: "Open Sans Condensed", sans-serif; }
   @media screen and (max-width: 1227px) {
     .navbar-nav li a {
-      font-size: 18px;
+      font-size: 1.125em;
       margin-left: 29px;
       margin-right: 29px; } }
   @media screen and (max-width: 1093px) {
     .navbar-nav li a {
       margin-left: 25px;
       margin-right: 25px;
-      font-size: 19px; } }
+      font-size: 1.188em; } }
   @media screen and (max-width: 1059px) {
     .navbar-nav li a {
       margin-left: 21px;
-      margin-right: 21px;
-      font-size: 15px; } }
+      margin-right: 36px;
+      font-size: 0.938em; } }
+  @media screen and (max-width: 987px) {
+    .navbar-nav li a {
+      margin-left: 21px;
+      margin-right: 30px;
+      font-size: 0.875em; } }
+  @media screen and (max-width: 925px) {
+    .navbar-nav li a {
+      margin-left: 18px;
+      margin-right: 23px;
+      font-size: 0.875em; } }
   @media screen and (max-width: 906px) {
     .navbar-nav li a {
       margin-left: 11px;
-      margin-right: 11px;
-      font-size: 14px; } }
+      margin-right: 28px;
+      font-size: 0.875em; } }
+  @media screen and (max-width: 844px) {
+    .navbar-nav li a {
+      margin-left: 14px;
+      margin-right: 14px;
+      font-size: 0.875em; } }
+  @media screen and (max-width: 770px) {
+    .navbar-nav li a {
+      margin-left: 12px;
+      margin-right: 12px;
+      font-size: 0.875em; } }
 
 /*drop_down styling*/
 #bs-example-navbar-collapse-1 {
@@ -588,14 +651,10 @@ ul li.twitter p {
 /*hover button on bio 'about me'*/
 #contact_button:hover {
   border: solid 4px #ffffff;
-  background-color: #ED4A62;
-  color: #ffffff;
-  border-radius: 8px;
-  text-decoration: none; }
-
-#contact_button a:hover {
-  text-decoration: none;
-  color: #ffffff; }
+  font-weight: bold; }
+  #contact_button:hover a {
+    text-decoration: none;
+    font-size: 1.063em; }
 
 /*main nav hover styling*/
 nav ul li a:hover {
@@ -627,7 +686,15 @@ a:hover.image_link {
   color: #ffffff;
   border: solid 4px #ffffff;
   background-color: #ED4A62;
-  border-radius: 9px; }
+  border-radius: 9px;
+  height: 40px;
+  width: 145px; }
+
+/*explore button*/
+.explore_button:hover {
+  font-size: 1.313em;
+  width: 190px;
+  height: 43px; }
 
 /*about me section*/
 .about_me {
@@ -644,16 +711,16 @@ a:hover.image_link {
 
 .portfolio {
   position: relative;
-  top: 260px; }
+  top: 300px; }
   @media screen and (max-width: 710px) {
     .portfolio {
-      top: 320px; } }
+      top: 360px; } }
   @media screen and (max-width: 588px) {
     .portfolio {
-      top: 380px; } }
+      top: 350px; } }
   @media screen and (max-width: 426px) {
     .portfolio {
-      top: 440px; } }
+      top: 390px; } }
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**

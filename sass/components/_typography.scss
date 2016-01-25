@@ -30,7 +30,7 @@
 .welcome_quote{
 	z-index: 1;
 	color:white;
-	font-size: 35px;
+	font-size: 2.188em;
 	text-align: center;
 	padding:5px;
 	font-family: $main-header-font;
@@ -41,7 +41,7 @@
 /*H2 PAGE HEADINGS*/
 
 h2{
-	font-size:39px;
+	font-size:2.438em;
 	color:$color-highlight;
 	z-index: 1;
 	width:230px;
@@ -50,8 +50,18 @@ h2{
 	padding-top:43px;
 	font-family: $nav-font;
 	font-weight: bold;
+	color:#ffffff;
+	text-decoration: none;
 }
 
+.about-me-header{
+	text-decoration: none;
+	color:$highlight-white;
+}
+.about-me-header:hover{
+	text-decoration: none;
+	color:$highlight-white;
+}
 /*Make a short line appear under headings*/
 
 h2:after {
@@ -82,36 +92,35 @@ h2:after {
 h3{
 	color:$color-headers;
 	font-weight:bold;
-	font-size: 18px;
+	font-size: 1.125em;
 
 }
 
 .intro_bio {
 	font-weight: bold;
 	margin-bottom:3.5px ;
-	font-size: 18px;
+	font-size: 1.125em;
 	text-align: center;
 	@media screen and (max-width: 745px) {
 	font-weight: bold;
 	margin-bottom:3.5px ;
-	font-size: 15px;
+	font-size: 0.938em;
 	text-align: center;
 	}
 }
 
 .main_text_bio{
-	font-size: 15px;
+	font-size: 0.938em;
 	text-align: center;
 	font-family: arial,sans-serif;
 	@media screen and (max-width: 745px) {
-	font-size: 13px;
+	font-size: 0.813em;
 	text-align: center;
 	min-width:200px;
 	}
 
 
 }
-
 /*portfolio quotes styling and arrow*/
 
 div.portfolio_quote_div1{
@@ -139,27 +148,48 @@ p.quote1 {
 	color:$color-highlight;
 	width:90%;
 	z-index: 5;
-	font-size: 45px;
-	
+	font-size: 4.063em;	
 	@include block-center;
 	text-shadow: 0px 5px 2px rgba(0, 0, 0, 0.88);
-	
-
-font-family: $quote-font;
-
-
+	font-family:$quote-font;
+	font-weight: bold;
+			@media screen and (max-width: 1142px) {
+			font-size:3.125em;
+			}
+		@media screen and (max-width: 525px) {
+			font-size:2.813em;
+			}
+		@media screen and (max-width: 1142px) {
+			top:50px;
+			font-size: 2.500em;
+		}
+		
 }
 
 p.quote2{
 	color:$color-highlight;
 	width:90%;
 	z-index: 5;
-	font-size: 45px;
+	font-size: 3.750em;
 	font-weight: bold;
 	@include block-center;
 	text-shadow: 0px 5px 2px rgba(0, 0, 0, 0.88);
 	font-family: $quote-font;
-
+		@media screen and (max-width: 1142px) {
+			font-size:3.125em;
+			position: relative;
+			bottom:50px;
+			}
+		@media screen and (max-width: 525px) {
+			font-size: 2.813em;
+			}
+		@media screen and (max-width: 1142px) {
+			top:50px;
+			font-size: 2.500em;
+		}
+		
+		
+		
 
 }
 
