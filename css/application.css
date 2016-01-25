@@ -355,16 +355,9 @@ p.quote1 {
   text-shadow: 0px 5px 2px rgba(0, 0, 0, 0.88);
   font-family: "Patrick Hand SC", cursive;
   font-weight: bold; }
-  @media screen and (max-width: 1142px) {
-    p.quote1 {
-      font-size: 3.125em; } }
-  @media screen and (max-width: 525px) {
+  @media screen and (max-width: 736px) {
     p.quote1 {
       font-size: 2.813em; } }
-  @media screen and (max-width: 1142px) {
-    p.quote1 {
-      top: 50px;
-      font-size: 2.500em; } }
 
 p.quote2 {
   color: #ffffff;
@@ -379,16 +372,11 @@ p.quote2 {
   font-family: "Patrick Hand SC", cursive; }
   @media screen and (max-width: 1142px) {
     p.quote2 {
-      font-size: 3.125em;
       position: relative;
       bottom: 50px; } }
-  @media screen and (max-width: 525px) {
+  @media screen and (max-width: 736px) {
     p.quote2 {
       font-size: 2.813em; } }
-  @media screen and (max-width: 1142px) {
-    p.quote2 {
-      top: 50px;
-      font-size: 2.500em; } }
 
 /*contact page header*/
 .say_hello {
@@ -714,13 +702,13 @@ a:hover.image_link {
   top: 300px; }
   @media screen and (max-width: 710px) {
     .portfolio {
-      top: 360px; } }
+      top: 270px; } }
   @media screen and (max-width: 588px) {
     .portfolio {
-      top: 350px; } }
+      top: 250px; } }
   @media screen and (max-width: 426px) {
     .portfolio {
-      top: 390px; } }
+      top: 350px; } }
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
